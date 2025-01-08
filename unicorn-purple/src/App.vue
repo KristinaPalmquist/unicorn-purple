@@ -1,12 +1,14 @@
 <script setup>
 import ThemeToggle from './components/ThemeToggle.vue';
 import DetailsSummary from './components/DetailsSummary.vue';
+import DetailsAccordion from './components/DetailsAccordion.vue';
 </script>
 
 <template>
   <div id="content">
     <ThemeToggle />
     <DetailsSummary />
+    <DetailsAccordion />
   </div>
 </template>
 

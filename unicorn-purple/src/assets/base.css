@@ -1,0 +1,54 @@
+
+/* Colors */
+:root {
+    --primary-color: #663399;
+    --secondary-color: #4f5277;
+    --third-color: #e6e6fa;
+    --fourth-color: #f9f871;
+    --fifth-color: #a47864;
+  
+    --base-01-color: #f6f2f0;
+    --base-02-color: #e4d7d1;
+    --base-03-color: #d2bcb2;
+    --base-04-color: #bfa193;
+    --base-05-color: #836050;
+    --base-06-color: #62483c;
+    --base-07-color: #423028;
+    --base-08-color: #211814;
+  
+    --black: #000;
+    --white: #fff;
+  
+    --text-color: var(--black)
+    --background-color: var(--base-08-color);
+  }
+
+  /* Light Theme */
+  [theme="custom-light"] {
+    background-color: var(--base-01-color);
+  color: var(--base-08-color);
+   }
+   [theme="custom-light"] a:hover {
+      color: #747bff;
+    }
+    [theme="custom-light"] button {
+      background-color: var(--base-01-color);
+      color: var(--base-08-color)
+    }
+  
+  
+  /* Dark Theme */
+  [theme="custom-dark"] {
+    background-color: var(--base-08-color);
+      color: var(--base-01-color);
+   
+  }
+
+  [theme="custom-dark"] a:hover {
+    color: var(--primary-color);
+  }
+  
+  [theme="custom-dark"] button {
+    background-color: var(--base-08-color);
+    color: var(--base-01-color);
+  }
